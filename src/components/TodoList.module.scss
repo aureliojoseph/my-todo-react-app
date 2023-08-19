@@ -1,0 +1,39 @@
+.list_container {
+  ul {
+    list-style: none;
+    padding: 10px 40px;
+
+    .todo_list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 5px;
+
+      .item_container {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        .todo_item {
+          text-align: start;
+          color: #495057;
+        }
+      }
+
+      .list_icon {
+        width: 36px;
+        height: 36px;
+        color: #495057;
+        padding: 1px 6px;
+        background-color: #e9ecef;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: #ced4da;
+        }
+      }
+    }
+  }
+}
